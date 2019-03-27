@@ -1,4 +1,4 @@
-**Marlin 2.0 Bugfix with changes for my Custom Ender-3 with SKR V1.3 and BLTouch v3.0**
+**Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0**
 
 ----------
 
