@@ -1025,7 +1025,7 @@
 #if ENABLED(MIN_SOFTWARE_ENDSTOPS)
   #define MIN_SOFTWARE_ENDSTOP_X
   #define MIN_SOFTWARE_ENDSTOP_Y
-  #define MIN_SOFTWARE_ENDSTOP_Z
+  //#define MIN_SOFTWARE_ENDSTOP_Z // Disable Soft Endstop for Z to make BLTouch calibration easier.
 #endif
 
 // Max software endstops constrain movement within maximum coordinate bounds
@@ -1995,7 +1995,7 @@
 // @section extras
 
 // Increase the FAN PWM frequency. Removes the PWM noise but increases heating in the FET/Arduino
-//#define FAST_PWM_FAN
+//#define FAST_PWM_FAN  // FAST_PWM_FAN INCOMPATIBLE with BLTouch 3.0 - Bltouch would do startup self test but would not respond to any PWM commands
 
 // Use software PWM to drive the fan, as for the heaters. This uses a very low frequency
 // which is not as annoying as with the hardware PWM. On the other hand, if this frequency
