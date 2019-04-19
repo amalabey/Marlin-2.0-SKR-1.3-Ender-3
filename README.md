@@ -1,5 +1,8 @@
 **Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0**
 
+4/12/2019 - Nozzle Fan had a separated wire, hardware problem.  
+Fork is pretty much working and good to go, with exception that I want to center the BLTouch probing pattern.
+
 4/5/2019 - Fork is working. Nozzle Fan is not working but need to test if its a hardware problem.
 Other Known issues is that the BLTouch probing matrix is centered too far back on the bed, pretty close to the back edge.  Has something to do with home offsets or X/Y Minimum.
 
