@@ -1,5 +1,7 @@
 **Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0**
 
+4/20/2019 - Pretty happy with this config. Everything works, got some nice prints. Bltouch is centered enough.  Linear Advance on TMC2208 working with the minimum pulse width fixes.  Probably just quality of life tweaks and tuning from here onwards.  Such as filament load/unload length etc
+
 4/12/2019 - Nozzle Fan had a separated wire, hardware problem.  
 Fork is pretty much working and good to go, with exception that I want to center the BLTouch probing pattern.
 
