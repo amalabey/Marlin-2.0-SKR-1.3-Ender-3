@@ -187,6 +187,9 @@
     #define BTN_EN1         P1_18
     #define BTN_EN2         P1_20
 
+    #define SD_DETECT_PIN P1_31 // (49) (NOT 5V tolerant)
+    #define LCD_SDSS      P0_16 // (16) J3-7 & AUX-4
+
     #define LCD_PINS_ENABLE P1_23
     #define LCD_PINS_D4     P1_21
 
@@ -216,8 +219,8 @@
 //#define USB_SD_DISABLED
 #define USB_SD_ONBOARD        // Provide the onboard SD card to the host as a USB mass storage device
 
-#define LPC_SD_LCD            // Marlin uses the SD drive attached to the LCD
-//#define LPC_SD_ONBOARD        // Marlin uses the SD drive on the control board
+//#define LPC_SD_LCD            // Marlin uses the SD drive attached to the LCD
+#define LPC_SD_ONBOARD        // Marlin uses the SD drive on the control board
 
 #if ENABLED(LPC_SD_LCD)
 
